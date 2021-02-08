@@ -25,7 +25,7 @@ public class WebClientTestApplication {
 		SpringApplication.run(WebClientTestApplication.class, args);
 	}
 	
-	static String endpoint  =  "http://postman-echo.com/get?name=value";
+	static String endpoint  =  "https://postman-echo.com/get?name=value";
 
 	@Bean
 	public RouterFunction<ServerResponse> testWebClient(WebClient.Builder webClientBuilder) {
